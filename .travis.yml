@@ -1,7 +1,8 @@
   language: python
   python:
     - "3.6"
-    - mock
-    - requests
+  install:
+    - pip install mock
+    - pip install requests
   script:
     - pytest
